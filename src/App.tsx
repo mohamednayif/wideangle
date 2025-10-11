@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <Router basename="/wideangle">
+    <Router>
       <div className="min-h-screen bg-white">
         <Header />
         <main className="pt-20">
