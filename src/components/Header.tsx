@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, Compass } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { motion } from 'framer-motion'
+import logoSvg from '../assets/logo.svg'
 
 
 const Header = () => {
@@ -25,7 +26,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <Compass className="w-10 h-10 text-primary-500" />
+            <img 
+              src={logoSvg}
+              alt="Wide Angle Logo" 
+              className="w-10 h-10"
+            />
             <div>
               <h1 className="text-xl font-bold text-gray-900">Wide Angle</h1>
               <p className="text-sm text-gray-600">Surveying Engineering Services LLC</p>

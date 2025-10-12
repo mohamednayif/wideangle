@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { MapPin, Phone, Mail, Clock, Compass } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock } from 'lucide-react'
+import logoSvg from '../assets/logo.svg'
 
 const Footer = () => {
   return (
@@ -9,7 +10,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <Compass className="w-10 h-10 text-primary-500" />
+              <img 
+                src={logoSvg}
+                alt="Wide Angle Logo" 
+                className="w-10 h-10"
+              />
               <div>
                 <h3 className="text-xl font-bold">Wide Angle</h3>
                 <p className="text-gray-400">Surveying Engineering Services LLC</p>
