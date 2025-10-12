@@ -10,9 +10,13 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <img 
-                src="/images/logo.svg" 
+                src="/images/logo.svg"
                 alt="Wide Angle Logo" 
                 className="w-10 h-10"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = '/images/logo.png';
+                }}
               />
               <div>
                 <h3 className="text-xl font-bold">Wide Angle</h3>
