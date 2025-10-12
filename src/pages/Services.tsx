@@ -24,8 +24,7 @@ const Services = () => {
         'Subdivision Surveys',
         'Easement Surveys',
         'Legal Descriptions'
-      ],
-      price: 'Starting from AED 5,000'
+      ]
     },
     {
       icon: Building,
@@ -38,8 +37,7 @@ const Services = () => {
         'Foundation Surveys',
         'Elevation Certificates',
         'Progress Monitoring'
-      ],
-      price: 'Starting from AED 3,500'
+      ]
     },
     {
       icon: Mountain,
@@ -52,8 +50,7 @@ const Services = () => {
         'Cross-Section Surveys',
         'Volume Calculations',
         'Drainage Studies'
-      ],
-      price: 'Starting from AED 4,000'
+      ]
     },
     {
       icon: Camera,
@@ -66,8 +63,7 @@ const Services = () => {
         'Progress Monitoring',
         'Volumetric Analysis',
         'Inspection Services'
-      ],
-      price: 'Starting from AED 6,000'
+      ]
     },
     {
       icon: Compass,
@@ -80,8 +76,7 @@ const Services = () => {
         'Deformation Monitoring',
         'Bridge Surveys',
         'Pipeline Surveys'
-      ],
-      price: 'Starting from AED 4,500'
+      ]
     },
     {
       icon: Ruler,
@@ -94,8 +89,7 @@ const Services = () => {
         'Property Line Verification',
         'Encroachment Surveys',
         'Zoning Compliance'
-      ],
-      price: 'Starting from AED 2,500'
+      ]
     }
   ]
 
@@ -196,10 +190,7 @@ const Services = () => {
                 </ul>
                 
                 <div className="border-t border-gray-200 pt-6">
-                  <div className="flex items-center justify-between">
-                    <span className="text-lg font-semibold text-primary-600">
-                      {service.price}
-                    </span>
+                  <div className="flex justify-end">
                     <Link 
                       to="/contact" 
                       className="text-primary-600 hover:text-primary-700 font-medium inline-flex items-center gap-1"
