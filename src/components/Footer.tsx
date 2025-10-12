@@ -16,7 +16,9 @@ const Footer = () => {
                 className="w-10 h-10"
               />
               <div>
-                <h3 className="text-xl font-bold">Wide Angle</h3>
+                <h3 className="text-xl font-bold text-white">
+                  <span className="text-primary-400">W</span>ide Angle
+                </h3>
                 <p className="text-gray-400">Surveying Engineering Services LLC</p>
               </div>
             </div>

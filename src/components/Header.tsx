@@ -32,7 +32,9 @@ const Header = () => {
               className="w-10 h-10"
             />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Wide Angle</h1>
+              <h1 className="text-xl font-bold text-gray-900">
+                <span className="text-primary-600">W</span>ide Angle
+              </h1>
               <p className="text-sm text-gray-600">Surveying Engineering Services LLC</p>
             </div>
           </Link>
