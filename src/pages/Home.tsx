@@ -41,9 +41,9 @@ const Home = () => {
   ]
 
   const stats = [
-    { number: '500+', label: 'Projects Completed' },
-    { number: '15+', label: 'Years Experience' },
-    { number: '50+', label: 'Happy Clients' },
+    { number: '2025', label: 'Established' },
+    { number: '15+', label: 'Years Team Experience' },
+    { number: '100%', label: 'Precision Focused' },
     { number: '24/7', label: 'Support Available' }
   ]
 
@@ -62,7 +62,7 @@ const Home = () => {
             >
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
                 Professional Surveying
-                <span className="block text-secondary-500">Engineering Services in UAE</span>
+                <span className="block text-gray-200">Engineering Services in UAE</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl">
                 Wide Angle Surveying Engineering Services LLC provides precision surveying solutions with cutting-edge technology for land development, 
@@ -182,8 +182,8 @@ const Home = () => {
                 Why Choose Wide Angle Surveying Engineering Services?
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                With over 15 years of experience in the UAE market, Wide Angle Surveying Engineering Services LLC combines local expertise 
-                with international standards to deliver exceptional surveying and engineering services.
+                Founded in 2025, Wide Angle Surveying Engineering Services LLC brings together seasoned professionals with over 15 years of combined expertise 
+                to deliver cutting-edge surveying and engineering services with international standards.
               </p>
               
               <div className="space-y-6">

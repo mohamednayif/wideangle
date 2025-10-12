@@ -43,16 +43,16 @@ const Contact = () => {
       details: [
         'Wide Angle Surveying Engineering Services LLC',
         'Dubai, United Arab Emirates',
-        'P.O. Box: XXXXX'
+        'P.O. Box: 9111'
       ]
     },
     {
       icon: Phone,
       title: 'Phone Numbers',
       details: [
-        '+971 XX XXX XXXX (Main)',
-        '+971 XX XXX XXXX (Mobile)',
-        '+971 XX XXX XXXX (Emergency)'
+        '+971 50 202 7474 (Main)',
+        '+971 50 202 7474 (Mobile)',
+        '+971 50 202 7474 (Emergency)'
       ]
     },
     {
@@ -175,7 +175,7 @@ const Contact = () => {
                           value={formData.phone}
                           onChange={handleChange}
                           className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                          placeholder="+971 XX XXX XXXX"
+                          placeholder="+971502027474"
                         />
                       </div>
                     </div>

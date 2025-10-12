@@ -63,9 +63,9 @@ const About = () => {
   ]
 
   const achievements = [
-    { number: '500+', label: 'Projects Completed' },
-    { number: '15+', label: 'Years in Business' },
-    { number: '50+', label: 'Satisfied Clients' },
+    { number: '2025', label: 'Founded' },
+    { number: '15+', label: 'Years Team Expertise' },
+    { number: '100%', label: 'Client Satisfaction' },
     { number: '99.9%', label: 'Accuracy Rate' }
   ]
 
@@ -84,7 +84,7 @@ const About = () => {
               About Wide Angle Surveying Engineering Services LLC
             </h1>
             <p className="text-xl text-primary-100 mb-8">
-              Your trusted partner for professional surveying and engineering services in the UAE since 2009
+              Your trusted partner for professional surveying and engineering services in the UAE - founded in 2025 with expert professionals
             </p>
           </motion.div>
         </div>
@@ -103,10 +103,10 @@ const About = () => {
                 Leading Surveying Excellence in the UAE
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2009, Wide Angle Surveying Engineering Services LLC has established itself as a premier provider 
-                of surveying and engineering services across the United Arab Emirates. Our commitment to precision, 
-                innovation, and client satisfaction has made us the go-to choice for developers, 
-                architects, engineers, and property owners throughout the region.
+                Founded in 2025, Wide Angle Surveying Engineering Services LLC is a new firm built on a foundation of experienced professionals 
+                dedicated to providing premier surveying and engineering services across the United Arab Emirates. Our fresh approach combines 
+                decades of individual expertise with modern technology and innovative solutions, making us the ideal choice for developers, 
+                architects, engineers, and property owners seeking cutting-edge surveying services.
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 With our headquarters in Dubai and operations across all seven emirates, we combine 

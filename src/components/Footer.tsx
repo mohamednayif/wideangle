@@ -9,9 +9,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
-                <MapPin className="w-6 h-6 text-white" />
-              </div>
+              <img 
+                src="/images/logo.svg" 
+                alt="Wide Angle Logo" 
+                className="w-10 h-10"
+              />
               <div>
                 <h3 className="text-xl font-bold">Wide Angle</h3>
                 <p className="text-gray-400">Surveying Engineering Services LLC</p>
@@ -81,7 +83,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary-500 flex-shrink-0" />
-                <span className="text-gray-400">+971 XX XXX XXXX</span>
+                <span className="text-gray-400">+971 50 202 7474</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary-500 flex-shrink-0" />
@@ -90,15 +92,15 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <Clock className="w-5 h-5 text-primary-500 mt-1 flex-shrink-0" />
                 <div className="text-gray-400">
-                  <p>Sun - Thu: 8:00 AM - 6:00 PM</p>
-                  <p>Fri - Sat: 9:00 AM - 5:00 PM</p>
+                  <p>Mon - Sat: 8:30 AM - 5:30 PM</p>
+                  <p>Sunday: Closed</p>
                 </div>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Wide Angle Surveying Engineering Services LLC. All rights reserved.

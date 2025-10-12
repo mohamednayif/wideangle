@@ -14,11 +14,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary-600 hover:bg-primary-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 inline-flex items-center gap-2;
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 inline-flex items-center gap-2;
   }
   
   .btn-secondary {
-    @apply border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 inline-flex items-center gap-2;
+    @apply border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 inline-flex items-center gap-2;
   }
   
   .section-padding {
@@ -27,5 +27,38 @@
   
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Custom purple theme utilities */
+  .text-brand-purple {
+    color: #c300ff;
+  }
+  
+  .bg-brand-purple {
+    background-color: #c300ff;
+  }
+  
+  .text-brand-dark {
+    color: #1c1c1c;
+  }
+  
+  .bg-brand-dark {
+    background-color: #1c1c1c;
+  }
+  
+  /* WhatsApp floating button animations */
+  @keyframes whatsapp-pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.3;
+    }
+  }
+  
+  .whatsapp-pulse {
+    animation: whatsapp-pulse 2s infinite;
   }
 }
