@@ -37,10 +37,16 @@ const About = () => {
 
   const team = [
     {
-      name: 'Ahmed Al-Rashid',
-      position: 'Principal Surveyor',
+      name: 'Unais Salahudeen',
+      position: 'Managing Director',
       experience: '15+ years',
-      qualifications: 'Licensed Land Surveyor (UAE), BSc Surveying Engineering'
+      qualifications: 'Expert in Land Surveying and Consultancy'
+    },
+    {
+      name: 'Ashik Basheer',
+      position: 'General Manager',
+      experience: '10+ years',
+      qualifications: 'Dubai Municipality Approved Engineer'
     },
     {
       name: 'Sarah Johnson',
@@ -54,12 +60,6 @@ const About = () => {
       experience: '8+ years',
       qualifications: 'MSc GIS, AutoCAD Certified Professional'
     },
-    {
-      name: 'Lisa Chen',
-      position: 'Project Manager',
-      experience: '10+ years',
-      qualifications: 'PMP Certified, BSc Construction Management'
-    }
   ]
 
   const achievements = [
