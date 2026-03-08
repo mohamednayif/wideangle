@@ -5,7 +5,6 @@ import {
   Building, 
   Mountain, 
   Camera, 
-  Ruler,
   CheckCircle,
   ArrowRight
 } from 'lucide-react'
@@ -36,7 +35,7 @@ const Services = () => {
         'As-Built Surveys',
         'Foundation Surveys',
         'Elevation Certificates',
-        'Progress Monitoring'
+        'Gate Level Marking'
       ]
     },
     {
@@ -73,24 +72,9 @@ const Services = () => {
         'Route Surveys',
         'Utility Mapping',
         'Monitoring Surveys',
-        'Deformation Monitoring',
-        'Bridge Surveys',
         'Pipeline Surveys'
       ]
     },
-    {
-      icon: Ruler,
-      title: 'Property Surveys',
-      description: 'Residential and commercial property surveys for real estate transactions and development.',
-      features: [
-        'Mortgage Surveys',
-        'Title Surveys',
-        'Flood Certificates',
-        'Property Line Verification',
-        'Encroachment Surveys',
-        'Zoning Compliance'
-      ]
-    }
   ]
 
   const process = [
