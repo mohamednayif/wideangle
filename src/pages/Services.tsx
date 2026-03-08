@@ -19,10 +19,8 @@ const Services = () => {
       features: [
         'Boundary Surveys',
         'Property Mapping',
-        'ALTA/NSPS Surveys',
         'Subdivision Surveys',
-        'Easement Surveys',
-        'Legal Descriptions'
+        'Easement Surveys'
       ]
     },
     {
